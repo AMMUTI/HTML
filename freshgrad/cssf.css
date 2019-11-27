@@ -1,0 +1,36 @@
+.login-form {
+    margin-top: 100px;
+  }
+.main{ margin-top: 10px;
+      width: 60%;
+      height: 60%;
+      margin-left: 100px;
+
+    }
+.user{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding:auto;
+}
+#but:hover{
+  border: 1px solid #70707000;
+    background-color: #5DE697;
+    color: white;
+}
+#user{
+  margin-bottom: 30px;
+}
+input:hover{
+  border: 1px solid #0bb76c !important;
+}
+#pass{
+  margin-bottom: 30px;
+}
+#but{
+  margin-bottom: 30px;
+  width: 100px;
+}
+.forgot{
+  color: #56e293;
+  direction: none;
+}

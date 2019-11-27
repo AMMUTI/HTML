@@ -1,0 +1,92 @@
+.side{
+  background-color: black;
+  color: white;
+  height: 660px;
+  margin: 0px;
+  padding: 0px;
+
+}
+center{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.box{
+display: block;
+color: white;
+padding: 1em;
+}
+.box:hover{
+  background-color: #0bb76c;
+}
+#but{
+  margin-top: 20px;
+  width: 120px;
+  border-radius: 20px;
+}
+.right{
+  margin-top: 20px;
+  border-radius: 0px;
+  float: right;
+}
+#inside{
+
+box-sizing: border-box;
+border: 1px solid #eeeeee;
+margin-left: 30px;
+padding: 1em;
+color: #888876;
+width: 220px;
+float: center;
+}
+.doc{
+  position: absolute;
+  width: 70em;
+  height: 50px;
+  top:10em;
+  left: 6em;
+  margin-left: 10px;
+}
+.drop{
+  width: 50px;
+}
+#drop{
+  left:40em;
+  top: 1em;
+  width:23em;
+  position: absolute;
+}
+#drop2{
+  left:53em;
+  top: 1em;
+  width:23em;
+  position: absolute;
+}
+.search{
+  left:5em;
+  top: 16em;
+  width:23em;
+  position: absolute;
+}
+.Show{
+  left:54em;
+  top: 16em;
+  width:23em;
+  position: absolute;
+
+}
+.container{
+  width:1000px;
+}
+.tab{
+  /* border: 0px solid #eeeeee; */
+  left: 5em;
+  top: 20em;
+  width: 20em;
+  position: absolute;
+
+}
+thead{
+    background-color: #ddd;
+     border-bottom:1px solid #ccc;
+}
