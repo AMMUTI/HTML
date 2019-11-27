@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet"type="text/css" href="clock.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="mydiv">
+
+
+    <!-- audio tag for play audio -->
+    <audio id="myAudio">
+
+      <source src="audio/thaburan.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+<div class="col-sm-6 box1">
+
+</div>
+<div class="col-sm-6 box2 ">
+  <div class="box">
+    <!-- <center><img src="img/b2.png" width="600px" alt=""></center> -->
+    <a href="#">Music</a>
+<!-- for timer -->
+<div > <p id="time"></p></div>
+
+
+
+
+<div class="timer">
+
+
+
+<h1><time>00:00:00</time></h1>
+<button id="start">start</button>
+<button id="stop">stop</button>
+<button id="clear">clear</button>
+
+</div>
+
+    <button type="button" onclick="mess()" id="msg" >  <span class="fa fa-comments-o  " style="color:blue;"></span></button>
+    <button type="button" id="music" onclick="playmusic()">  <span class="fa fa-music" style="color:blue;"></span></button>
+    <button type="button" >  <span class="fa fa-clock-o" style="color:blue;"></span></button>
+
+  </div>
+<script src="watch.js"></script>
+</div>
+</div>
+  </body>
+</html>

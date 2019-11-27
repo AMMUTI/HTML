@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet"type="text/css" href="music.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <!-- body -->
+  <body onload="startTime()" >
+    <div class="" id="mydiv">
+
+
+    <!-- audio tag -->
+    <audio id="myAudio">
+
+      <source src="audio/thaburan.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="myAudio2">
+
+      <source src="audio/arikilninnu.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+      <!-- ends audio tag  -->
+<div class="col-sm-6 box1">
+<!-- first column -->
+</div>
+
+
+
+<!-- coloumn for smart watch -->
+<div class="col-sm-6 box2 ">
+<div class="control">
+
+
+
+
+  <div class="box">
+    <a href="#">Music</a>
+    <div class="time"><p id="time"></p></div>
+    <span class="fa fa-backward" id="back" onclick="playAudio2()"></span>
+    <span class="fa fa-pause" onclick="pauseAudio()" id="pause" ></span>
+    <span class="fa fa-forward" id="for" onclick="playAudio()"></span></div>
+<div class="event" style="margin-top:45px; margin-left:250px;">
+    <button type="button" onclick="mess()" id="msg">  <span class="fa fa-comments-o " style="color:blue;"></span></button>
+    <button type="button" onclick="playAudio2()" >  <span class="fa fa-music" style="color:blue;"></span></button>
+    <button type="button" onclick="clock()" id="clock">  <span class="fa fa-clock-o" style="color:blue;"></span></button>
+
+
+</div>
+  </div>
+  <!-- control the music -->
+
+  <!-- end the control -->
+<script src="watch.js"></script>
+</div>
+<!-- ends coloumn for smar watch -->
+
+
+</div>
+  </body>
+</html>

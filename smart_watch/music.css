@@ -1,0 +1,57 @@
+.box1{
+  background-color: #2196f3;
+  height: 657px;
+}
+.box2{
+
+  background-image: url("img/b1.png");
+  height: 657px;
+  background-repeat: no-repeat;
+
+}
+
+.box{
+  margin-top: 170px;
+  margin-left: 205px;
+}
+ button{
+  /* margin: 230px 2px 1px 24px; */
+
+  border-radius:100%;
+}
+.time{
+  margin-top: -20px;
+    margin-left: 130px;
+}
+#pause{
+
+/* margin: 354px 47px 0px 288px; */
+margin: 160px 49px 0px 36px;
+width: 2px;
+height: 2px;
+
+color: black;
+}
+#back{
+margin: 31px -239px 9px 234px;
+}
+.control{
+  padding: 0px 0px 0px 0px
+}
+#pause:hover{
+  cursor: pointer;
+}
+#for:hover{
+  cursor: pointer;
+}
+#back:hover{
+  cursor: pointer;
+}
+#back{
+  margin-top: 0px;
+  margin-left: 36px;
+  margin-right: 0px;
+}
+.event{
+  margin-top: 2px;
+}

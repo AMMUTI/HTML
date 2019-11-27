@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet"type="text/css" href="watch.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <!-- start of body tag -->
+  <body onload="startTime()">
+
+    <div id="mydiv"><!-- for replaceing new page -->
+
+    <!-- audio tag for play audio -->
+    <audio id="myAudio">
+
+      <source src="audio/thaburan.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <!-- end of adudio -->
+
+<div class="col-sm-6 box1">
+
+</div>
+<!-- column for smart watch Messages -->
+<div class="col-sm-6 box2 ">
+  <div class="box">
+
+    <a href="#">Music</a>
+    <div class="time"><p id="time"></p></div>   <!-- for display the time -->
+
+<!-- display the Messages -->
+    <div class="cont" style="color:black;">
+                    <button style=" border:none;" onclick="plusDivs(-1)">&#10094;</button>
+                     <b style="font-size: 20px;font-family:sans-serif; ">Messages  <b>
+                      <button style=" border:none;" onclick="plusDivs(1)">&#10095;</button>
+                      <p class="mySlides"  >Soubhagya: <br>Heloo</p>
+                      <p class="mySlides"  >Appu: <br>  hai dear!!!! </p>
+                      <p class="mySlides"  >kikku :<br> Are you fine ?</p>
+                      <p class="mySlides"  >Neethu:<br>hey whats going on today?</p>
+                </div>
+
+<!-- end of display -->
+
+
+
+<!-- button for navigation bar -->
+    <button type="button" onclick="mess()" id="msg" >  <span class="fa fa-comments-o " style="color:blue;"></span></button>
+    <button type="button" id="music" onclick="playmusic()">  <span class="fa fa-music" style="color:blue;"></span></button>
+    <button type="button"onclick="clock()" id="clock" >  <span class="fa fa-clock-o" style="color:blue;"></span></button>
+<!-- end of the navigation bar -->
+  </div>
+  <!-- end column for smart watch Messages -->
+<script src="watch.js"></script>
+</div>
+</div>
+<!-- javascript for display the Messages -->
+<script type="text/javascript">
+  var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+showDivs(slideIndex += n);
+}
+function showDivs(n) {
+var i;
+var x = document.getElementsByClassName("mySlides");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+}
+x[slideIndex-1].style.display = "block";
+}
+</script>
+
+  </body>
+</html>

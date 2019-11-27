@@ -1,0 +1,39 @@
+.box1{
+  background-color: #2196f3;
+  height: 657px;
+}
+.box2{
+
+  background-image: url("img/b1.png");
+  height: 657px;
+  background-repeat: no-repeat;
+
+}
+
+.box{
+  margin-top: 165px;
+  margin-left: 205px;
+}
+.box button{
+  margin: 104px -6px 1px 24px;
+  border-radius:100%;
+}
+.time{
+  margin-top: -20px;
+    margin-left: 120px;
+}
+#back{
+margin: 90px 0px 0px 0px;
+/* margin: 354px 0px 0px 297px; */
+color: black;
+}
+a{
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.cont{
+  margin-top: -80px;
+  margin-left: 0px;
+  height: 200px;
+  width: 200px;
+}

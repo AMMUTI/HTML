@@ -1,0 +1,40 @@
+.box1{
+  background-color: #2196f3;
+  height: 657px;
+}
+.box2{
+
+  background-image: url("img/b1.png");
+  height: 657px;
+  background-repeat: no-repeat;
+
+}
+
+.box{
+  margin-top: 165px;
+  margin-left: 205px;
+}
+.box button{
+  margin: 70px -20px 1px 34px;
+  border-radius:100%;
+}
+.t{
+  margin-top: 73px;
+    margin-left: 70px;
+}
+#back{
+margin: 90px 0px 0px 0px;
+/* margin: 354px 0px 0px 297px; */
+color: black;
+}
+a{
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.timer button{
+  margin-top: 74px;
+  margin-left: 22px;
+}
+h1{
+  margin-left: 10px;
+}
