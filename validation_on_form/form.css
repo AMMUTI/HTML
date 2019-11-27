@@ -1,0 +1,21 @@
+.body{
+  background-color: grey;
+}
+.box1{
+  border: 5px solid white;
+    background-color: #f8584a;
+    height: 600px;
+    width: 400px;
+    margin-top: 4%;
+    color: white;
+      margin-left: 1em;
+      padding: 2em;
+}
+
+input{
+  text-decoration-color: black;
+}
+.but{
+  background: black ;
+  color:white;
+}

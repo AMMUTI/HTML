@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"type="text/css" href="form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <title></title>
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="col-sm-4 box1">
+        <center><img src="img/img1.png" alt="">
+        <h1>Become a Member</h1></center>
+          <div style="width:260px; padding:1em; margin-left:1em;"><p>Welcome to the Super Film
+            Society. We are a group of film
+            enthusiasts who meet up each
+            month to watch old movies on
+            film, in our own private
+            We also create our own short film
+            each year, which is entered into
+            competitions worldwide.</p></div>
+
+      </div>
+      <div class="col-sm-3 box1">
+        <h3>Settings</h3>
+        <form class="" action="" method="post">
+          <label for="" style="margin-top: 2em;"> Name : </label> <br>
+          <input type="text" name="" value="" placeholder="Enter your name" style="color:black;" id="name" maxlength="9" required> <br>
+          <p id="n" style="color:black"></p>
+
+          <label for="" style="margin-top:2em;">Email : </label> <br>
+          <input type="text" name="" value="" style=" color:black;"  placeholder="Enter the email" id="email">
+          <p id="result" style="color:black"></p>
+
+
+
+          <label for="" style="margin-top:2em;">Password :</label> <br>
+
+          <input type="password" style=" color:black;" name="pswd" id="pswd" onfocus="f()" onkeyup="pass()" >
+          <p id="p" style="color:black"></p>
+
+
+
+          <label for="" style="margin-top:2em;">Confirm Password :</label >
+          <input type="password" name="" value="" style=" color:black;" id="cpswd"  onkeyup="cpass()">
+            <p id="rp"style="color:black"></p>
+
+      </div>
+      <div class="col-sm-4 box1">
+        <h1>profile</h1>
+        <label for="">Brithday:</label> <br>
+        <input type="date" id = "dd" onblur="df()" style="margin-bottom:2em; color:black;"> <br>
+        <p id="re" style="color:black;"></p>
+        <p id="er4"></p>
+
+        <p id="permission">You need a parent permission to join.Tick here if your child can join: <input type="checkbox" name="" value=""></p>
+        <br>
+        <p>Short Bio(max 140 character.) : </p>
+        <textarea name="name" rows="4" cols="35" maxlength="140" style="color:black;" id="t" onkeyup="key()"></textarea>
+        <p id="c">remaing 140</p> <br> <br>
+
+        <input type="submit" name="" value="Register" class="but" id="but">
+
+ </form>
+
+
+
+<script src="form.js"></script>
+    </div>
+  </body>
+</html>
