@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>forms</title>
+  </head>
+  <body>
+  <form  action="index.html" method="post"><!--first form for personal details--->
+    <fieldset>
+      <legend>Your Details</legend>
+      <label>Name : <input type="text" name="name" value=""></label><br>     <!--input filed for name-->
+      <label>Email : <input type="email" name="mail" value=""></label>       <!--input field for email-->
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Your Review</legend><!--Second field for form-->
+        <br>
+        <label>How did you hear about us?
+          <select  name="Google">
+            <option value="Google">Google</option>
+            <option value="Face book">Face book</option>
+            <option value="Whats app">Whats app</option>
+            <option value="Friends">Friends</option><br>
+          </select>
+        </label><br><br>
+        <label>Would you vist again?<br></label>
+        <label>  <input type="radio" name="ans" value="Yes">Yes</label>
+        <label>  <input type="radio" name="ans" value="No">No</label>
+        <label>  <input type="radio" name="ans" value="Maybe"> Maybe</label><br>
+        <p>Comments:</p><textarea name="name" rows="6" cols="50"></textarea><br><br>
+        <input type="checkbox" name="" value="" checked="checked">Sign me up for Email updates <br>
+        <input type="submit" name="sumb" value="submit review">
+      </fieldset><!--end second field-->
+
+  </form>
+
+  </body>
+</html>
