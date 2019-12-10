@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <style media="screen">
+    body{
+
+      background-image:url("wallpaper-gitar-hd.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+    }
+
+    form{
+        margin-top:55%;
+       background-color:white;
+        padding-left: 6em;
+        padding-top: 2em;
+        padding-right: 6em;
+        padding-bottom: 2em;
+
+margin-bottom: 55%;
+    }
+    button{
+      background-color: white;
+      color: black;
+      width: 100PX;
+
+      margin-bottom: 1em;
+
+    }
+    .user{
+
+      border: 1px solid black;
+    }
+li{
+  width: 100px;
+  border: 1px solid black;
+  margin-top: 1em;
+
+}
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+    <script>
+
+
+
+
+$(document).ready(function(){
+  var count=3;
+  // $("li").slideDown("300");
+  $("#l1").fadeIn();
+  $("#l2").fadeIn(3000);
+  $(".add").click(function()
+  {
+
+    var val=$("input:first").val();
+
+    $("ul").append('<li>'+val+'</li>');
+    $("input:first").val("");
+    var c =$("li").length;
+    $("h3").html("No of items  : "+c);
+    $("li").slideDown(400).css("background-color","#76c378").css("color","white");
+    $("#l1").css("background-color","rgb(118, 154, 195)").css("color","white");
+    $("#l2").css("background-color","rgb(118, 154, 195)").css("color","white");
+    // $("#l2").css("background-color","rgb(195, 118, 180)").css("color","white");
+      // $("li").fadeIn(2000);rgb(195, 118, 180)
+  });
+    $(".remove").click(function()
+      {
+       $("li:last").remove();
+       var c=$("li").length;
+       if(c>=2)
+       {
+        $("h3").html("No of items  : "+c);
+      }
+       else {
+         // c=c-1;
+          $("h3").html("No of items  : "+c);
+       }
+      });
+});
+</script>
+
+
+
+
+
+
+
+  </head>
+  <body >
+    <div class="container">
+
+<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+</div>
+
+
+<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+    <form class=""  method="post">
+      <h3>No of items : 2</h3>
+    <ul>
+      <li style="  display: none;" id="l1">APPLE</li>
+      <!-- <li>Orange</li> -->
+      <li style="  display: none;" id="l2">mango</li>
+
+    </ul>
+    <br>
+    <input type="text" style="width=500px;" name=""  value="">
+       <button type="button" class="add" name="button" >ADD</button>
+       <button type="button"class="remove" name="button">Remove</button>
+
+   </form>
+ </div>
+
+   </div>
+
+  </body>
+</html>

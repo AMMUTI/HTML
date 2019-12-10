@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>sample</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        </script >
+        <script>
+        $(document).ready(function(){
+
+
+          $(document).keypress(function(e) {
+            var vals=$("#t").val();
+            if(e.which == 13) {
+              $(".print").append('<p>'+vals+'<br></p>');
+              $("#t").val("");
+              $("p").dblclick(function(){
+                $(this).hide();
+              });
+              $("p").mouseover(function()
+                {
+                  $(this).css("text-decoration", "line-through");
+
+                });
+                $("p").mouseout(function()
+                  {
+                    $(this).css("text-decoration", "none");
+
+                  });
+              }
+            });
+        });
+        </script>
+
+<style media="screen">
+p{
+  width: 100PX;
+}
+</style>
+
+
+    </head>
+    <body>
+      <div class="container" style="margin-left:20%;">
+        <div id="sqr">
+          <input type="text" name="" id="t" style=" border: none; outline: none; width:500px;decoration:none; padding-left:30%;" value="">
+          <div class="print" style="margin-left:20%;">
+
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

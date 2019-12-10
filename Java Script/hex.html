@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+    <script>
+  $(document).ready(function(){
+
+    setInterval(function () {
+   var hex=["1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"];
+   var colors="#";
+   for (var i = 0; i < 6; i++) {
+     colors+=hex[(Math.floor(Math.random() * 16))];
+   }
+   $(".hex1").css("background-color",colors);
+ },500);
+  });
+  </script>
+
+  </head>
+  <body>
+    <center>
+   <div class="container" style="margin-top:10%;">
+     <h2>Build a Hex color Generator </h2> <br> <br>
+     <div class="hex1" style=" width:200px; height:200px; background-color:blue;">
+
+     </div>
+
+   </div>
+   </center>
+
+
+
+  </body>
+</html>
