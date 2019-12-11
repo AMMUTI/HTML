@@ -1,0 +1,82 @@
+body {
+  float: content;
+  font-family: sans-serif;
+  background-image: url(img/bg3.jpg);
+
+  background-repeat: no-repeat;
+background-size: cover;
+  color: white;
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+  font-family:cursive;
+  font-weight: bold;
+
+  background:-webkit-linear-gradient(#FFEB3B, #39efde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container{
+  text-align: center;
+ width: 380px;
+ padding: 20px;
+/* border: 1px solid black; */
+ overflow: hidden;
+ margin: 30px 160px;
+}
+.container .b{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #f3edb9;
+  border-radius: 10%;
+  text-align: center;
+  line-height: 110px;
+  float: left;
+   margin: 4px ;
+   font-size: 80px;
+}
+.container .b:hover{
+  background-color: #009688;
+  cursor:pointer;
+}
+
+button{background: #4caf50;
+       color: #fff;
+       font-weight: bold;
+       border-radius: 10px;
+
+        width: 200px;
+        height: 40px;
+        font-size: 22px;
+        display: block;
+        margin: 20px auto 20px;
+      }
+    .display .score
+    {
+        width: 120px;
+        height: 50px;
+        /* border: 1px solid black; */
+        margin: 10px 0px 20px auto;
+        float: left;
+        line-height: 55px;
+        font-weight: bold;
+        font-size: 20px;
+
+
+      }
+
+.display{
+  width: 500px;
+  height: 200px;
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 2em;
+  margin: 47px auto 30px;
+}
+.turn{
+  font-weight: bold;
+  font-style: oblique;
+    color: red;
+    font-size: 30px;
+}

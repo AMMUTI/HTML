@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <!-- link for js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- link for bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- Direct to css -->
+    <link rel="stylesheet" href="tic.css">
+  </head>
+  <body >
+  <h1 >Tic Tac Toe</h1>
+   <div class="container col-sm-8" id="all">
+     <!-- nine box for play -->
+     <div id="turn" class="turn">X's Turn</div>
+     <div class="b" id="b1"></div>
+     <div class="b" id="b2"></div>
+     <div class="b" id="b3"></div>
+     <div class="b" id="b4"></div>
+     <div class="b" id="b5"></div>
+     <div class="b" id="b6"></div>
+     <div class="b" id="b7"></div>
+     <div class="b" id="b8"></div>
+     <div class="b" id="b9"></div>
+ <!-- end of box -->
+  </div>
+
+<div class="col-sm-4 display">
+  <!-- print the score -->
+     <div class="score" id="x">X won : </div>
+     <div class="score" id="O">O won :</div>
+     <div class="score" id="t">Tie :</div>
+     <!-- end of score bord -->
+     <!-- button for reset and new game -->
+     <button type="button" name="button" onclick="reset()">Reset</button>
+     <button type="button" name="button" onclick="newgame()">New Game</button>
+  </div>
+  </body>
+  <script type="text/javascript" src="tic.js"></script>
+</html>
